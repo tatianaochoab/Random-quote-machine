@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all{
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-content: center;
+}
+.container-all {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px;
+  width: 50vw;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-text{
+  color: #fff;
+  font-size: small;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-text{
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px 50px;
 }
+
+.container-text .text-quote{
+  align-self: center;
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+
+}
+
+.container-text .text-author{
+  align-self: flex-end;
+}
+
+.container-buttons{
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.container-buttons .buttons-social .social{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  color: #fff;
+}
+
+.container-buttons .button-quote{
+  margin: 5px;
+  font-weight: 300;
+}
+
+.container-buttons .button-quote .quote{
+  font-weight: 500;
+  color: #fff;
+}
+
+
+
+
